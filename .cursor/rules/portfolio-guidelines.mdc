@@ -1,0 +1,50 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Portfolio Web Development Guide (2025)
+
+This guide outlines the recommended technologies and design principles for building a modern web portfolio in 2025, based on an analysis of needs for showcasing data engineering, data science, machine learning, and DevOps projects.
+
+## Core Technology Stack
+
+The recommended stack combines performance, developer experience, and modern best practices.
+
+### Next.js 15
+The primary choice for the frontend framework.
+- **Server-Side Rendering (SSR):** Ensures excellent SEO for project visibility.
+- **Performance Optimization:** Automatic code-splitting and other optimizations for fast load times.
+- **Vercel Deployment:** Simplified, one-click deployment.
+- **Mature Ecosystem:** Extensive documentation and a large community.
+
+### TypeScript
+Essential for building robust and maintainable applications.
+- **Type Safety:** Catches errors during development, not in production.
+- **Developer Experience:** Smart autocompletion and improved code navigation.
+- **Maintainability:** Makes large codebases easier to manage and refactor.
+- **Industry Standard:** A key skill for modern web development.
+
+### Tailwind CSS
+A utility-first CSS framework for rapid and consistent styling.
+- **Utility-First:** Speeds up development without writing custom CSS.
+- **Performance:** Automatically purges unused styles for a minimal production build.
+- **Consistency:** Ensures a cohesive design system.
+- **Accessible:** Easy to learn, especially for developers from non-frontend backgrounds.
+
+## Recommended Architecture
+
+- **Frontend:** Next.js 15 + TypeScript + Tailwind CSS
+- **UI Components:** [Shadcn/UI](mdc:https:/ui.shadcn.com) or [Headless UI](mdc:https:/headlessui.com) for building accessible component primitives.
+- **Animations:** [Framer Motion](mdc:https:/www.framer.com/motion) for fluid micro-interactions and animations.
+- **Deployment:** Vercel for seamless integration with Next.js.
+
+## Design Trends for 2025
+
+Incorporate these modern design trends to create a compelling user experience.
+
+- **Dark/Light Mode:** Automatically adapt the theme to user's system preferences.
+- **Subtle Animations:** Enhance UX without being distracting.
+- **Expressive Typography:** Create a clear visual hierarchy for content.
+- **Bento Grids:** A modern and visually appealing way to organize and showcase projects.
+- **Micro-interactions:** Provide feedback and make the interface more engaging.
